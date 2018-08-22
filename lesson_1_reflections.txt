@@ -1,0 +1,30 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+--on win cdm i'm using fc filename1.txt filename2.txt
+--since i know the bug was not in the old version of the file, it had to be in the changed lines which are given by above command.
+--hence i only had to check those lines instead of the whole file.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+--i can check older versions until i find the newest one where a bug does not exist yet, so i can discover where that bug was introduced
+--on a file that is modified by multiple people, it is possible to find out who is responsible for bugs
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+--your commits can contain all the necessary changes for a bugfix or an (small) additional feature
+--depending on how often a file is automatically saved, it may contain just parts of the necessary edits or many changes in logically independent problems
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+--you want to save multiple files in each commit whenever there is a close connection between those files, i.e. html, css and javascript files for a web page
+
+How can you use the commands git log and git diff to view the history of files?
+
+-- git log zeigt alle commits inkl. ids, kommentaren und zeit
+-- git diff, gefolgt von zwei commit-ids zeigt die unterschiede zwischen den commits mit + und -
+
+How might using version control make you more confident to make changes that could break something?
+
+-- you know that you can always go back to a working version of your project
+

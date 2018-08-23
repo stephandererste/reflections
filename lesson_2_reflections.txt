@@ -18,3 +18,8 @@ How can you use the staging area to make sure you have one commit per logical ch
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 --if you want to add changes that are not directly connected to the master branch you can work on those independently in a seperate branch 
+
+
+How do the diagrams help you visualize the branch structure?
+
+--you can see which changes (commits) were made on each branch 

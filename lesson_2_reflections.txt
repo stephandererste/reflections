@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+--it gets initialized in the folder without any commits or files to be tracked
+--necessary infrastructure (invisible .git folder, etc.) gets added
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+--it acts as a layer between working directory and repository
+--it contains onlky the files you want to add to (or remove from) the repository from the working directory 
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+--if you are working on seperate files within the repository which contain changes for different topics, you can only add files that logically belong together to the staging area before committing those changes

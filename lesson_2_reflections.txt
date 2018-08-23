@@ -22,4 +22,9 @@ What are some situations when branches would be helpful in keeping your history 
 
 How do the diagrams help you visualize the branch structure?
 
---you can see which changes (commits) were made on each branch 
+--you can see which changes (commits) were made on each branch
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+--saves lots of work - sometimes fucks up 
